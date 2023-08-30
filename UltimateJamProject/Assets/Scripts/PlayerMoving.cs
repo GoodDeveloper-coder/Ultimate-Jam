@@ -15,6 +15,9 @@ public class PlayerMoving : MonoBehaviour
     void Update()
     {
         Walk();
+        Jump();
+        Reflect();
+        CheckingGround();
     }
 
     //------- Функция/метод для перемещения персонажа по горизонтали ---------
@@ -25,5 +28,37 @@ public class PlayerMoving : MonoBehaviour
     {
         moveVector.x = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
+    }
+
+    public int jumpForce = 10;
+
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && onGround)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+
+    public bool faceRight = true;
+
+    void Reflect()
+    {
+        if ((moveVector.x > 0 && !faceRight) || (moveVector.x < 0 && faceRight))
+        {
+            transform.localScale *= new Vector2(-1, 1);
+            faceRight = !faceRight;
+        }
+    }
+
+    public bool onGround;
+    public LayerMask Ground;
+    public Transform GroundCheck;
+    public float CheckRadius = 0.5f;
+
+    void CheckingGround()
+    {
+        onGround = Physics2D.OverlapCircle(GroundCheck.position, CheckRadius, Ground);
+
     }
 }
