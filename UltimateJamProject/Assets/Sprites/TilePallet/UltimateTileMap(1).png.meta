@@ -1,0 +1,2445 @@
+fileFormatVersion: 2
+guid: 1576c64ba39efd24694fd91389cc0c8f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ab53c99a07a8948833a8d892787917
+      internalID: -1382118809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef17e3f914eadf42986455934ab433f
+      internalID: -803467460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193a65b7f203f7d4896f9f4f29ac6e38
+      internalID: 855065400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8b250e8ff9f7742ae73cf10c95e206
+      internalID: -1655769913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d832c6e030a674aaa30feaf9a541f6
+      internalID: -2068477104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a3a8b31daabe7459882674672a5249
+      internalID: 1687416548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a27074561c640408aa69c435e1c0b7
+      internalID: -1348096492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cabdc85076367b4f892d295d3c4a9b7
+      internalID: -1975243672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757aa612d165554e8ba2fd9389258a0
+      internalID: -560870507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c60887856c8ae45b8f26ac63dc1ee5
+      internalID: -313611406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd772664e058d0f43a6ad9af8c24426a
+      internalID: -96171346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e5cfebd08e4df42a365a03ec5d824e
+      internalID: 1309624082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27cfe396abf9734ab00ef67e1b9cdc9
+      internalID: 1518461014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4bd5cea12f75048ac4aa002bdbe764
+      internalID: 1120006098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 222
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0256648dd481f448a382a891a18c38
+      internalID: 254574263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63452bee5bae14a9b8ffd4616c57b5
+      internalID: -362636713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed979cd2af161b04a9f5a16c01a23819
+      internalID: -1844307954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a438da7419e21a498b1c6b4b130994a
+      internalID: 1827041127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1de7254e73aad4c8c9515ccccbafe0
+      internalID: -824555291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae02d83596902bb44a6160f571767050
+      internalID: -31593032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71339c0608db85f4283028067bdce032
+      internalID: -43612546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232a39706d62ed242bf84c2efa859a81
+      internalID: -590869975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_22
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862a24f30b2df1c42903f3168ebf8e42
+      internalID: -899028118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7882cfcc8f63a4e4097616f5cbbbe5a4
+      internalID: -613046953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_24
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d28f385abfb3d44ac19d0e0cdac4fa
+      internalID: -126732183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70717a7247076649b27da1f81a355d4
+      internalID: 1147722989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_26
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cbeedb06d172e48921f7889c171658
+      internalID: 2091165735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb624f6fa4415b44aa3cca7720a187c
+      internalID: -1744829332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_28
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c139ba2bfffc68a4ba23b6182f3a312c
+      internalID: -1939343522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_29
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 190
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a7e2714e43ab14b9b9e13b6e3f8e7f
+      internalID: -1458993556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51eea7851ee0e648bfbcb440070125a
+      internalID: 491098866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90074b22d26e44418c712b734364fdd
+      internalID: -530264766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793e8256bb170fc4db0e3a0a1ec0cf12
+      internalID: -1616269720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5a76130b0adda4e84166cfb5de2f09
+      internalID: -411047089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7a64cdfca93bc46b163ac215977d7b
+      internalID: -1083432732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_35
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070e98f97b29f7a4494f76eb974df77f
+      internalID: -257057798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e3780e6fc984246918cabc84f224db
+      internalID: 41054420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_37
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa87f5835cb72c4aa9a6f8528b23a6d
+      internalID: 284588426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42642e485da988c43b53019b2b700fe2
+      internalID: -1374958956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_39
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8d87b2cae2d094794e1371a6a0370a
+      internalID: -1786699688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_40
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d40fa175f175724986422fdb4a9e042
+      internalID: 1140577020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_41
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288e0d66bd858ff4dbd286619f71742d
+      internalID: -1423554999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e198659abdd61444c9a913516fffe602
+      internalID: -653388777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_43
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9213e4543d07fc04fb042d75d25d5cfc
+      internalID: -1070569776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_44
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f52408bd50b0cc4d8a37b8b8daa878e
+      internalID: 2125536666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_45
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cb2685f837a89498f9c87e5d01454a
+      internalID: 858452183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_46
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c481e15314aca418fb0e04b40f15ba
+      internalID: -1051588900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_47
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b703e87cc4042458567e75bef74190
+      internalID: -1165161043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_48
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c312823f6ddbc3a4fabfc484e193ca18
+      internalID: 1641310727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_49
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dbbb372ffb8bb478a0fd8c868cc244
+      internalID: 498714174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_50
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8a8f58927a7a44bb81a412f93dbe6c
+      internalID: 1091111879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2444b6bf1048e459dac1c549ea04a2
+      internalID: -696558073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847a3a14be0d47d42ab85443185bdf1e
+      internalID: -396681088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7461d2efc3cffb24cbc28e2afe539759
+      internalID: -1919499916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83261429f95c7324089f2f4bfb98179d
+      internalID: 10893280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_55
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0860c016286c4e479b876157ffa8b26
+      internalID: 1314668502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_56
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6126575df5aee441ae9177ab9d47795
+      internalID: -22342240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_57
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd36409d836018840b4ebbd0feb5e93b
+      internalID: -1876204484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_58
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dd59412b8386a43846ed2709dcfb8b
+      internalID: -879637081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 126
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3fbd6d3c4b52d44bfa1e1529d95bab
+      internalID: 2048982815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ed279120c4c124ca1c210dcca5d38f
+      internalID: -632496431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_61
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407511c05f3c0184a8a08d6fa97a8fd7
+      internalID: -478494719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_62
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec3ad98121c5e84e927e09a466ffdb8
+      internalID: -792760739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_63
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1d79c1d7e259045920140135ca00eb
+      internalID: 199381533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_64
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804441d0bbd0e2b48aab03d077205fcb
+      internalID: 759741156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_65
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2581d33d9b0342d44a9dfbe6aa0cadb6
+      internalID: -878740707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_66
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335b335bd779f1d4c9ee9803a1c5d52f
+      internalID: 150334204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac19a2771f8a51a48a6298306481a759
+      internalID: 325501685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_68
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df3f3dd8eb41114ab63afd729521478
+      internalID: 706007233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_69
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272b15cf93cebfa4cba9dfab6e5ac2c3
+      internalID: -234150903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_70
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8845a6446bf702949ab07a2537122fd6
+      internalID: 690132048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_71
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c5e8228d50479479cf64f3397228c9
+      internalID: 327196646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_72
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27006dc7b5439f46a42f49377c38c89
+      internalID: -737483151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_73
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98d5e15349fe2e46a982b111be1c049
+      internalID: -1438262539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_74
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 94
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479a9d4c67abcd42a9a53fbf27e532d
+      internalID: 1407638431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_75
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d185fea3cbdcb4c931ba068c76262e
+      internalID: -1790974069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_76
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7346e4e0cbdb0e949921b74c3d2869ba
+      internalID: 1927085497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_77
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7a594786620db4095a11aea5c9f77d
+      internalID: 540805697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_78
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c30bdc7669c684a9b698402ebf7eba
+      internalID: -2139214196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_79
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a39a2771ca1fa4c8493eea2e23ddd0
+      internalID: -255053060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_80
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cb6d391bdda1541abdc8f6f83c7743
+      internalID: 2084608371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_81
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cfb1e88a752d244aeb24a185f99732
+      internalID: 1503205656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_82
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aedff25ac693d41a80a060a381bb53
+      internalID: -1846828310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_83
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3132ea2800aa7ca44a01649373662962
+      internalID: 302450900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_84
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6332cf9bb780544a9f1e9ecc4b6d59
+      internalID: -2072693537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_85
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7e4a2e6402d34eaffcc51d7936cf3
+      internalID: 585974140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_86
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ed41d957eec21489053c72ca6d71ec
+      internalID: 692629678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_87
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa43265c71a1774cacb221a357fa11b
+      internalID: 132471931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_88
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1aafa98595efb49b03702ea5f705ac
+      internalID: -464200988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_89
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 62
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f028a3c8bc8f77488c9b3de952907be
+      internalID: 865785060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6183ffedb1c177142aec01c37e15b21a
+      internalID: 1010436448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_91
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995e5446854c5634db65335d71af32ee
+      internalID: -956646557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_92
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183f4de6bc0356d49a675664f4d15075
+      internalID: -1545568332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_93
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c4318bcd9670b46bac702e525b8982
+      internalID: 1250750441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_94
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f26498a049a544e80cf35a7fbfa6f2
+      internalID: 961531111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_95
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe8337bfd38be949b2fc6b8f429e558
+      internalID: 1327819851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef690b38f456c147917d7437d4703c5
+      internalID: -1044410696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_97
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528eb97e27540604cbbafdbbc1e22b56
+      internalID: 1944584915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_98
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be16c26ed550c7d48860b6fc0a932224
+      internalID: 567922618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_99
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6fdb21329397046bd60e95369fe1cf
+      internalID: -1112411219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_100
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacce0744cbaffa4ba4671761981ee6a
+      internalID: -1601471349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_101
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe10b55bfd031240afc5510dccc17ce
+      internalID: -1597010333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_102
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d030e284bab2f42abcceed26948340
+      internalID: 1844961727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_103
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c69fed1b0a26c428acefb16adb3f29
+      internalID: -1378586154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UltimateTileMap(1)_104
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 30
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2910bdb2618f5eb4f89e800d5f9100b4
+      internalID: 1130516882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UltimateTileMap(1)_0: -1382118809
+      UltimateTileMap(1)_1: -803467460
+      UltimateTileMap(1)_10: -96171346
+      UltimateTileMap(1)_100: -1601471349
+      UltimateTileMap(1)_101: -1597010333
+      UltimateTileMap(1)_102: 1844961727
+      UltimateTileMap(1)_103: -1378586154
+      UltimateTileMap(1)_104: 1130516882
+      UltimateTileMap(1)_11: 1309624082
+      UltimateTileMap(1)_12: 1518461014
+      UltimateTileMap(1)_13: 1120006098
+      UltimateTileMap(1)_14: 254574263
+      UltimateTileMap(1)_15: -362636713
+      UltimateTileMap(1)_16: -1844307954
+      UltimateTileMap(1)_17: 1827041127
+      UltimateTileMap(1)_18: -824555291
+      UltimateTileMap(1)_19: -31593032
+      UltimateTileMap(1)_2: 855065400
+      UltimateTileMap(1)_20: -43612546
+      UltimateTileMap(1)_21: -590869975
+      UltimateTileMap(1)_22: -899028118
+      UltimateTileMap(1)_23: -613046953
+      UltimateTileMap(1)_24: -126732183
+      UltimateTileMap(1)_25: 1147722989
+      UltimateTileMap(1)_26: 2091165735
+      UltimateTileMap(1)_27: -1744829332
+      UltimateTileMap(1)_28: -1939343522
+      UltimateTileMap(1)_29: -1458993556
+      UltimateTileMap(1)_3: -1655769913
+      UltimateTileMap(1)_30: 491098866
+      UltimateTileMap(1)_31: -530264766
+      UltimateTileMap(1)_32: -1616269720
+      UltimateTileMap(1)_33: -411047089
+      UltimateTileMap(1)_34: -1083432732
+      UltimateTileMap(1)_35: -257057798
+      UltimateTileMap(1)_36: 41054420
+      UltimateTileMap(1)_37: 284588426
+      UltimateTileMap(1)_38: -1374958956
+      UltimateTileMap(1)_39: -1786699688
+      UltimateTileMap(1)_4: -2068477104
+      UltimateTileMap(1)_40: 1140577020
+      UltimateTileMap(1)_41: -1423554999
+      UltimateTileMap(1)_42: -653388777
+      UltimateTileMap(1)_43: -1070569776
+      UltimateTileMap(1)_44: 2125536666
+      UltimateTileMap(1)_45: 858452183
+      UltimateTileMap(1)_46: -1051588900
+      UltimateTileMap(1)_47: -1165161043
+      UltimateTileMap(1)_48: 1641310727
+      UltimateTileMap(1)_49: 498714174
+      UltimateTileMap(1)_5: 1687416548
+      UltimateTileMap(1)_50: 1091111879
+      UltimateTileMap(1)_51: -696558073
+      UltimateTileMap(1)_52: -396681088
+      UltimateTileMap(1)_53: -1919499916
+      UltimateTileMap(1)_54: 10893280
+      UltimateTileMap(1)_55: 1314668502
+      UltimateTileMap(1)_56: -22342240
+      UltimateTileMap(1)_57: -1876204484
+      UltimateTileMap(1)_58: -879637081
+      UltimateTileMap(1)_59: 2048982815
+      UltimateTileMap(1)_6: -1348096492
+      UltimateTileMap(1)_60: -632496431
+      UltimateTileMap(1)_61: -478494719
+      UltimateTileMap(1)_62: -792760739
+      UltimateTileMap(1)_63: 199381533
+      UltimateTileMap(1)_64: 759741156
+      UltimateTileMap(1)_65: -878740707
+      UltimateTileMap(1)_66: 150334204
+      UltimateTileMap(1)_67: 325501685
+      UltimateTileMap(1)_68: 706007233
+      UltimateTileMap(1)_69: -234150903
+      UltimateTileMap(1)_7: -1975243672
+      UltimateTileMap(1)_70: 690132048
+      UltimateTileMap(1)_71: 327196646
+      UltimateTileMap(1)_72: -737483151
+      UltimateTileMap(1)_73: -1438262539
+      UltimateTileMap(1)_74: 1407638431
+      UltimateTileMap(1)_75: -1790974069
+      UltimateTileMap(1)_76: 1927085497
+      UltimateTileMap(1)_77: 540805697
+      UltimateTileMap(1)_78: -2139214196
+      UltimateTileMap(1)_79: -255053060
+      UltimateTileMap(1)_8: -560870507
+      UltimateTileMap(1)_80: 2084608371
+      UltimateTileMap(1)_81: 1503205656
+      UltimateTileMap(1)_82: -1846828310
+      UltimateTileMap(1)_83: 302450900
+      UltimateTileMap(1)_84: -2072693537
+      UltimateTileMap(1)_85: 585974140
+      UltimateTileMap(1)_86: 692629678
+      UltimateTileMap(1)_87: 132471931
+      UltimateTileMap(1)_88: -464200988
+      UltimateTileMap(1)_89: 865785060
+      UltimateTileMap(1)_9: -313611406
+      UltimateTileMap(1)_90: 1010436448
+      UltimateTileMap(1)_91: -956646557
+      UltimateTileMap(1)_92: -1545568332
+      UltimateTileMap(1)_93: 1250750441
+      UltimateTileMap(1)_94: 961531111
+      UltimateTileMap(1)_95: 1327819851
+      UltimateTileMap(1)_96: -1044410696
+      UltimateTileMap(1)_97: 1944584915
+      UltimateTileMap(1)_98: 567922618
+      UltimateTileMap(1)_99: -1112411219
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
