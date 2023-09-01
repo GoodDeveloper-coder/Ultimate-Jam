@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 940241985c28b2e4e9183596b6e840c5
+guid: 4d71347af7efba24997442b0b6baa730
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,6 +67,18 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -115,49 +127,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "\u043E\u0433\u043D\u0435\u043D\u0430\u044F \u0443\u043B\u0438\u0442\u043A\u0430_0"
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 12
-        width: 30
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a2d5b7765980194989cf54139998e7c
-      internalID: 1323080462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u043E\u0433\u043D\u0435\u043D\u0430\u044F \u0443\u043B\u0438\u0442\u043A\u0430_1"
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 12
-        width: 31
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88dd22076fc64d949a24e4d16ad2f5b1
-      internalID: -183969211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -168,9 +138,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "\u043E\u0433\u043D\u0435\u043D\u0430\u044F \u0443\u043B\u0438\u0442\u043A\u0430_0": 1323080462
-      "\u043E\u0433\u043D\u0435\u043D\u0430\u044F \u0443\u043B\u0438\u0442\u043A\u0430_1": -183969211
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
