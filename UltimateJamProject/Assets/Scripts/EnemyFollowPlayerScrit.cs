@@ -36,6 +36,8 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
 
         if (distToPlayer < agroDistance)
         {
+            StartHunting();
+            /*
             if (player.position.x == transform.position.x)
             {
                 physics.velocity = new Vector2(0, 0);
@@ -44,6 +46,7 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
             {
                 StartHunting();
             }
+            */
         }
         else
         {
