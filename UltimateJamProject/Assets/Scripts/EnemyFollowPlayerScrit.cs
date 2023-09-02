@@ -78,6 +78,7 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             PL.PlayerLives -= 1;
+            PL.CameraShake();
 
             /*
             if (gg1)
