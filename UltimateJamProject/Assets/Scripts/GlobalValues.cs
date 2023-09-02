@@ -11,6 +11,10 @@ public class GlobalValues : MonoBehaviour
     public GameObject HP3;
     public GameObject HP4;
 
+    public GameObject hho;
+
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +39,12 @@ public class GlobalValues : MonoBehaviour
             HP3.SetActive(false);
             Debug.Log("You Lose");
             Time.timeScale = 0f;
+            hho.SetActive(true);
         }
+    }
+
+    public void CameraShake()
+    {
+        anim.SetTrigger("Shake");
     }
 }
