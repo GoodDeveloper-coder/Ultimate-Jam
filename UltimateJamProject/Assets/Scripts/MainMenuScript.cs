@@ -19,12 +19,17 @@ public class MainMenuScript : MonoBehaviour
 
     public void PlayAgain()
     {
+        SceneManager.LoadScene(1);
+    }
+
+    public void GoToMenu()
+    {
         SceneManager.LoadScene(0);
     }
 
     public void NormalTime()
     {
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
         Time.timeScale = 1f;
     }
 }
