@@ -19,7 +19,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void GoToMenu()
