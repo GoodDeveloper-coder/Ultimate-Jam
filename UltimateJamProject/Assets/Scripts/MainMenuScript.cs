@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
+    public GlobalValues GV;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,8 @@ public class MainMenuScript : MonoBehaviour
     public void NormalTime()
     {
         //SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        GV.NormalTime = false;
         Time.timeScale = 1f;
     }
 }
