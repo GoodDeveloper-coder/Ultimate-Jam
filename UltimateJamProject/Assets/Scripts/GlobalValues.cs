@@ -15,6 +15,9 @@ public class GlobalValues : MonoBehaviour
 
     public Animator anim;
 
+    public bool NormalTime = true;
+    //public Animator anim2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,19 +30,30 @@ public class GlobalValues : MonoBehaviour
         if (PlayerLives == 2)
         {
             HP1.SetActive(false);
+            Debug.Log("2");
         }
 
         if (PlayerLives == 1)
         {
             HP2.SetActive(false);
+            Debug.Log("1");
         }
 
         if (PlayerLives == 0)
         {
             HP3.SetActive(false);
             Debug.Log("You Lose");
-            Time.timeScale = 0f;
+            if (NormalTime)
+            {
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                Time.timeScale = 1f;
+            }
+            //Time.timeScale = 0f;
             hho.SetActive(true);
+            //anim2.Play("UltimateDeathPlayerAnim");
         }
     }
 
