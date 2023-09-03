@@ -21,7 +21,7 @@ public class GlobalValues : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -61,4 +61,43 @@ public class GlobalValues : MonoBehaviour
     {
         anim.SetTrigger("Shake");
     }
+
+    #region Pause MENU
+
+    public GameObject pauseMenu;
+    public GameObject pauseBTN;
+    public MainMenuScript mainMenu;
+
+    public void PauseGame()
+    {
+        if(pauseMenu.gameObject.activeInHierarchy == false)
+        {
+            pauseMenu.gameObject.SetActive(true);
+            pauseBTN.gameObject.SetActive(false);
+            Time.timeScale = 0f;
+        }
+    }
+
+    public void ResumeGame()
+    {
+        if (pauseMenu.gameObject.activeInHierarchy == true)
+        {
+            pauseMenu.gameObject.SetActive(false);
+            pauseBTN.gameObject.SetActive(true);
+            Time.timeScale = 1f;
+        }
+    }
+
+    public void RetryGame()
+    {
+        mainMenu = GameObject.Find("Canvas").GetComponent<MainMenuScript>();
+        mainMenu.PlayAgain();
+    }
+    public void MainMenu()
+    {
+        mainMenu = GameObject.Find("Canvas").GetComponent<MainMenuScript>();
+        mainMenu.GoToMenu();
+    }
+
+#endregion
 }
