@@ -11,8 +11,8 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
     public float speed;
     public float agroDistance;
 
-    private float scale = 0.5f;
-    private float scale1 = -0.5f;
+    public float scale = 0.5f;
+    public float scale1 = -0.5f;
 
     /*
     private bool gg1 = true;
@@ -59,12 +59,12 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
         if (player.position.x < transform.position.x)
         {
             physics.velocity = new Vector2(-speed, 0);
-            transform.localScale = new Vector2(0.5f, 0.5f);
+            transform.localScale = new Vector2(scale, scale);
         }
         else if (player.position.x > transform.position.x)
         {
             physics.velocity = new Vector2(speed, 0);
-            transform.localScale = new Vector2(-0.5f, 0.5f);
+            transform.localScale = new Vector2(scale1, scale);
         }
     }
 
@@ -77,7 +77,7 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            PL.PlayerLives -= 1;
+            PL.PlayerLives--;
             PL.CameraShake();
 
             /*
