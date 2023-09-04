@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FinishLevelScript : MonoBehaviour
 {
+    public GameObject hh;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class FinishLevelScript : MonoBehaviour
             if (GV.water)
             {
                 Debug.Log("You win");
+                hh.SetActive(true);
             }
             else
             {

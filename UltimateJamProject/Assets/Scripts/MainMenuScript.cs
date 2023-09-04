@@ -35,4 +35,14 @@ public class MainMenuScript : MonoBehaviour
         GlobalValues.Instance.NormalTime = false;
         Time.timeScale = 1f;
     }
+
+    public void GoToLevel2()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void GoToLevel3()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
