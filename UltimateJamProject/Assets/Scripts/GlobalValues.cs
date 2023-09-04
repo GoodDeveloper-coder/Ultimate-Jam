@@ -16,6 +16,9 @@ public class GlobalValues : Singleton<GlobalValues>
     public Animator anim;
 
     public bool NormalTime = true;
+
+    public bool water;
+
     //public Animator anim2;
 
     // Start is called before the first frame update
@@ -35,6 +38,7 @@ public class GlobalValues : Singleton<GlobalValues>
 
         if (PlayerLives == 1)
         {
+            HP1.SetActive(false);
             HP2.SetActive(false);
             Debug.Log("1");
         }
