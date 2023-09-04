@@ -21,12 +21,13 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
     private bool gg4;
     */
 
-    public GlobalValues PL;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         physics = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
@@ -75,10 +76,13 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            PL.PlayerLives--;
-            PL.CameraShake();
+            GlobalValues.Instance.PlayerLives--;
+            GlobalValues.Instance.CameraShake();
+            
+
+            
 
             /*
             if (gg1)

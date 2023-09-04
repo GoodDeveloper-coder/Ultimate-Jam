@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ObstacleScript : MonoBehaviour
 {
-    public GlobalValues PL;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +20,8 @@ public class ObstacleScript : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            PL.PlayerLives--;
-            PL.CameraShake();
+            GlobalValues.Instance.PlayerLives--;
+            GlobalValues.Instance.CameraShake();
         }
     }
 }

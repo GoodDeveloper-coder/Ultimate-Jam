@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalValues : MonoBehaviour
+public class GlobalValues : Singleton<GlobalValues>
 {
     public int PlayerLives = 3;
 
@@ -53,6 +53,7 @@ public class GlobalValues : MonoBehaviour
             }
             //Time.timeScale = 0f;
             hho.SetActive(true);
+            pauseBTN.gameObject.SetActive(false);
             //anim2.Play("UltimateDeathPlayerAnim");
         }
     }
