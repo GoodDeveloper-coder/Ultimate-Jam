@@ -35,4 +35,20 @@ public class MainMenuScript : MonoBehaviour
         GlobalValues.Instance.NormalTime = false;
         Time.timeScale = 1f;
     }
+    public void NextLevel()
+    {
+        int index = SceneManager.GetActiveScene().buildIndex + 1;
+        try
+        {
+            if (SceneManager.GetSceneByBuildIndex(index) != null)
+            {
+                Debug.Log(SceneManager.GetSceneByBuildIndex(index));
+                SceneManager.LoadScene(index);
+            }
+        }
+        catch
+        {
+            PlayAgain();
+        }
+    }
 }

@@ -23,6 +23,7 @@ public class BucketOfWaterScript : MonoBehaviour
         if (other.name == "Player")
         {
             GV.water = true;
+            SoundManager.Instance.PlaySound(SoundManager.Sound.PickUpWater, transform.position);
             Destroy(gameObject);
         }
     }

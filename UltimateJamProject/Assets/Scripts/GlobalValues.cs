@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GlobalValues : Singleton<GlobalValues>
 {
@@ -11,7 +12,10 @@ public class GlobalValues : Singleton<GlobalValues>
     public GameObject HP3;
     public GameObject HP4;
 
-    public GameObject hho;
+    public GameObject deathMenu;
+    public GameObject failMenu;
+    public GameObject winMenu;
+    public GameObject finishMenu;
 
     public Animator anim;
 
@@ -56,15 +60,33 @@ public class GlobalValues : Singleton<GlobalValues>
                 Time.timeScale = 1f;
             }
             //Time.timeScale = 0f;
-            hho.SetActive(true);
+            deathMenu.SetActive(true);
             pauseBTN.gameObject.SetActive(false);
             //anim2.Play("UltimateDeathPlayerAnim");
+            SoundManager.Instance.PlaySound(SoundManager.Sound.FailLevel, transform.position);
         }
     }
 
     public void CameraShake()
     {
         anim.SetTrigger("Shake");
+    }
+    public void FinishLevel()
+    {
+        if (water)
+        {
+            if (SceneManager.sceneCountInBuildSettings - 1 > SceneManager.GetActiveScene().buildIndex)
+                winMenu.SetActive(true);
+            else
+                finishMenu.SetActive(true);
+            SoundManager.Instance.PlaySound(SoundManager.Sound.FinishLevel, transform.position);
+        }
+        else
+        {
+            failMenu.SetActive(true);
+            SoundManager.Instance.PlaySound(SoundManager.Sound.FailLevel, transform.position);
+        }
+        pauseBTN.gameObject.SetActive(false);
     }
 
     #region Pause MENU

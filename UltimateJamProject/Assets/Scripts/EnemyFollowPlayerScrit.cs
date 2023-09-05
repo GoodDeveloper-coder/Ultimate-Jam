@@ -80,7 +80,7 @@ public class EnemyFollowPlayerScrit : MonoBehaviour
         {
             GlobalValues.Instance.PlayerLives--;
             GlobalValues.Instance.CameraShake();
-            
+            SoundManager.Instance.PlaySound(SoundManager.Sound.PlayerHurt, collision.transform.position);
 
             
 

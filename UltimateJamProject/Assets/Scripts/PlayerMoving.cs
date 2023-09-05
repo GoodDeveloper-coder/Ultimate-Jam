@@ -28,6 +28,7 @@ public class PlayerMoving : MonoBehaviour
     {
         moveVector.x = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
+        if (onGround && rb.velocity.magnitude > 0) SoundManager.Instance.PlaySound(SoundManager.Sound.PlayerWalk, transform.position, .5f);
     }
 
     public int jumpForce = 10;
@@ -37,6 +38,7 @@ public class PlayerMoving : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && onGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            SoundManager.Instance.PlaySound(SoundManager.Sound.PlayerJump, transform.position);
         }
     }
 

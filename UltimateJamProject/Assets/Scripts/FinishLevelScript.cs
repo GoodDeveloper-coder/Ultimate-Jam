@@ -22,14 +22,7 @@ public class FinishLevelScript : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            if (GV.water)
-            {
-                Debug.Log("You win");
-            }
-            else
-            {
-                Debug.Log("You Lose");
-            }
+            GlobalValues.Instance.FinishLevel();
         }
     }
 }

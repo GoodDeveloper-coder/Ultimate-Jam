@@ -40,7 +40,8 @@ public class EnemyHurt : MonoBehaviour
             {
                 EnemyHP--;
                 Debug.Log("Enemy -1");
-            } 
+            }
+            SoundManager.Instance.PlaySound(SoundManager.Sound.EnemyHurt, transform.position);
         }
     }
 }
